@@ -51,7 +51,6 @@ export default function SearchContent() {
           <FontAwesomeIcon icon={fas.faSearch} />
           </div>
           
-
         </div>
 
         

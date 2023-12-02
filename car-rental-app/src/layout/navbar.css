@@ -1,0 +1,38 @@
+.nav{
+    background-color: azure;
+    padding: 8px;
+}
+
+
+.container-fluid {
+    padding: 8px;
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(0, 0, 48);
+}
+
+.btn-home {
+    font-size: 40px;
+    padding: 5px 0px;
+    margin: 0px 16px 0px 0px;
+}
+
+.nav-title {
+    font-size: 40px;
+    color: deeppink;
+}
+
+
+
+.home-btn-container a{
+    color: deeppink;
+    text-decoration: none;
+}
+
+.body-title {
+    font-size: 40px;
+    color: deeppink;
+    text-align: center;
+}
+
+

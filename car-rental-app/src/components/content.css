@@ -1,0 +1,10 @@
+.search-container{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn-search-submit {
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+}

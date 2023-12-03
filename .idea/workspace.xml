@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f232c2c-eac1-4b0f-ad2f-2ef15406bc1d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/rental-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/rental-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/rental-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/rental-app/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/rental-app/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-app/src/components/intro.css" beforeDir="false" afterPath="$PROJECT_DIR$/rental-app/src/components/intro.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-app/src/components/search-content.js" beforeDir="false" afterPath="$PROJECT_DIR$/rental-app/src/components/search-content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/rental-app/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-app/src/layout/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/rental-app/src/layout/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-app/src/layout/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/rental-app/src/layout/navbar.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2ZJSljuaDjPpsIYZsWjOWJ5w146" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/muham/OneDrive/Desktop/Stuff/SWE Projects"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f232c2c-eac1-4b0f-ad2f-2ef15406bc1d" name="Changes" comment="" />
+      <created>1702138841568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702138841568</updated>
+    </task>
+    <servers />
+  </component>
+</project>

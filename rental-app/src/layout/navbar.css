@@ -1,38 +1,119 @@
-.nav{
-    background-color: azure;
-    padding: 8px;
+
+:root {
+   --PrimaryColor: rgba(55, 61, 151, 0.87);
+   --PrimaryLight: rgb(185, 155, 185);
+   --HoverColor: rgb(131, 131, 153);
+   --blackColor:rgb(15, 6, 6);
+   --textColor: hsl(155, 38%, 41%);
+ }
+
+ 
+ 
+
+.nav-container{
+
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color:rgb(255, 255, 255);
+   flex-direction: row;
+   z-index: 2;
+}
+
+.hamburger{
+   display: none;
+   /*padding: 1rem;*/
+}
+
+li{
+   padding:  1rem;
+}
+
+.nav-menu{
+   display: flex;
+}
+
+.mobile-menu{
+   display: none;
+}
+
+.nav-container .logo{
+   margin-left: .3%;
+   color: var(--PrimaryColor);
 }
 
 
-.container-fluid {
-    padding: 8px;
-    justify-content: space-between;
-    display: flex;
-    background-color: rgb(0, 0, 48);
+
+@media screen and (max-width: 940px) {
+
+   .mobile-menu{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+      background-color: rgb(204, 204, 204);
+      align-items: center;
+      color: rgb(25, 91, 150);
+      z-index: 1000;
+      justify-content: space-between;
+   }
+
+
+   .active{
+      top: 80px;
+    }
+
+
+   .mobile-menu li {
+      padding: 1.2rem 1rem;
+      margin: 0 1rem;
+      border-bottom: 1px solid rgb(194, 91, 18);
+   }
+
+
+   .mobile-nav {
+      margin: 1rem 0;
+   }
+
+   .mobile-menu-bottom{
+      width: 100%;
+      text-align: center;
+      padding: 1rem 0;
+   }
+
+   .mobile-menu button{
+      margin: 1rem;
+      width: 90%;
+   }
+
+
+
+   .nav-menu {
+      display: none;
+   }
+   .nav-icons {
+      display: none;
+   }
+
+   .hamburger{
+      display: block;
+   }
+
+   .social-icons{
+      display: flex;
+      justify-content: space-around;
+      margin: 2rem 0;
+   }
+
+   .social-icons .icon:hover{
+      transform: scale(1.5);
+      transition: .3s;
+   }
+
 }
-
-.btn-home {
-    font-size: 40px;
-    padding: 5px 0px;
-    margin: 0px 16px 0px 0px;
-}
-
-.nav-title {
-    font-size: 40px;
-    color: deeppink;
-}
-
-
-
-.home-btn-container a{
-    color: deeppink;
-    text-decoration: none;
-}
-
-.body-title {
-    font-size: 40px;
-    color: deeppink;
-    text-align: center;
-}
+  
 
 

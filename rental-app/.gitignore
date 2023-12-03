@@ -4,9 +4,11 @@
 /node_modules
 /.pnp
 .pnp.js
-
+/src/assets/background-video-2.mp4
 # testing
 /coverage
+
+rental-app/src/assets/background-video-2.mp4
 
 # production
 /build

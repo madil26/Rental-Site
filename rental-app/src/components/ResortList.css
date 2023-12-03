@@ -1,0 +1,85 @@
+.booking-container{
+    position: inherit;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 100%;
+    margin-left: 10%;
+    margin-top: 1%;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.booking-container .img-container {
+    position: relative;
+    width: 60%;
+    height: auto;
+}
+
+.bookings {
+    padding-bottom: 15%;
+}
+
+
+
+.booking-container .card {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 0, 0)
+}
+
+
+.booking-container .card-book button {
+    position: relative;
+    color: white;
+    width: 100%;
+    font-size: 50px;
+    cursor: pointer;
+    background-color: rgba(64, 63, 156, 0.836);
+}
+
+.card h1 {
+    margin-left: 1%;
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+
+.booking-container .card .card-bottom {
+    padding: 2%;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+    margin-top: 8%;
+    padding-top: auto;
+}
+
+
+
+.booking-container .card h4 {
+    color: rgb(20, 161, 255);
+    margin: 0;
+    padding: 0;
+}
+
+.results-page{
+    background: linear-gradient( #e1dfe4, #8584ad);
+}
+
+
+
+
+
+
+
+

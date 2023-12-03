@@ -1,0 +1,84 @@
+.login-page {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background: linear-gradient( #55406e, #040346);
+}
+
+.login-page h1 {
+    color: #ffffff;
+    font-size: 55px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.form-register{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    background-color: rgb(255, 255, 255);
+    padding: 3%;
+    margin-top: 1%;
+    margin-bottom: 8%;
+
+}
+
+.form-register .form-row{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.form-register .form-row label {
+    color: #55406e;
+    font-size: 20px;
+}
+
+.form-register .form-row input{
+    color: #000000;
+    background-color: transparent;
+    text-decoration: none;
+    border: dashed .05px;
+    outline: 1px;
+}
+
+
+.form-register .btn-submit{
+    width: 50%;
+    margin: .5%;
+    padding: 5%;
+    font-size: 12px;
+}
+
+.form-register .form-row .form-control {
+    margin: 1%;
+    padding: 2%;
+}
+
+
+.form-register .btn-submit{
+    margin-top: 3%;
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    justify-content: space-between;
+}
+
+.form-register .btn-submit .login{
+   font-size: 18px;
+   margin-top: 0;
+   background-color: #ffffff;
+   cursor: pointer;
+}
+.form-register .btn-submit .register{
+   font-size: 18px;
+   margin-top: 0;
+   background-color: #55406e;
+   color: #ffffff;
+   cursor: pointer;
+}
+

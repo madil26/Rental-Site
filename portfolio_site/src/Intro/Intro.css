@@ -1,0 +1,10 @@
+.intro{
+    background-color: rgb(212, 240, 87);
+}
+
+.intro h1{
+    font-size: 3rem;
+    color: azure;
+    margin: 0;
+    text-align: center;
+}
